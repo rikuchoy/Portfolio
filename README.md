@@ -1,1 +1,26 @@
 # week-2-challenge
+
+## User Story
+As a potential interviewee, 
+I WANT to create a professional portfolio to display samples of my work
+SO THAT I can have a presentable file of my work to employers
+
+## Acceptance Criteria (from Challenge ReadMe)
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+
+![example screenshot with hover effect](assets/ss.png)
+
+## Link to Page
+[Click to view page](https://rikuchoy.github.io/week-2-challenge/)

@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gainsboro;
+}
+
+.navbar a{
+    color: gainsboro;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: azure;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color: #13293d;
+    border-width: 5px;
+    border-color: aliceblue;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 70%;
+}
+main section p {
+    display: flex;
+    justify-content: center;
+    color:azure
+}
+aside{
+    flex: 30%;
+    margin-top: 1%;
+    background-color: rgb(218, 218, 218);
+    border-right-color: none none none black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.content{
+    flex: 70%;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1%;
+    background: rgb(53, 53, 86);
+    color: azure;
+}
+.main-header h1{
+    text-align: left;
+    width: 75%;
+}
+
+.about{
+    flex: 1 0 35%;
+    padding: 10px 100px;
+    text-align: center;
+    border-width: 4px;
+    min-width: 25%;
+    color: azure;
+}
+.project{
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.project-main,
+.projects{
+    flex: 1 0 50%;
+    padding: 10px 100px;
+    text-align: center;
+    border-width: 20px;
+    min-width: 90%;
+    max-width: 75;
+}
+.project-main:hover,
+.projects:hover {
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+.project-main img:hover,
+.projects img:hover{
+  box-shadow: 0 0 10px silver;
+}
+
+.project-main h2:hover,
+
+.project header{
+    padding: 20px;
+    background: #13293d;
+    color: azure;
+}
+.projects{
+    flex: 1 0 35%;
+    padding: 10px 50px;
+    text-align: center;
+    min-width: 25%;
+}
+
+.project img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background: rgb(53, 53, 86);
+    color: gainsboro;
+}
+footer aside {
+    flex: 1 0 30%; /* set the flex properties to match the other aside elements */
+    background-color: rgb(218, 219, 219);
+    border-right: none; /* remove the right border */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 3%; /* add some top margin for consistency */
+  }
+footer li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: 1 0 70%;
+}
+footer a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer a:hover{
+    color: azure;
+}
+@media screen and (max-width: 768px) {
+
+    .project-main, .projects {
+    flex: 1 0 100%;
+    }
+}
+@media screen and (max-width: 992px) {
+    aside h2,h3 {
+        font-size: 23px;
+        width: 20%;
+        display: inline-block;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+}
